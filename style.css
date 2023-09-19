@@ -4,6 +4,12 @@
     font-family: Objektiv Mk1;
 }
 
+.body{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .naam{
     display: flex;
     justify-content: center;
@@ -13,6 +19,25 @@
 .hello{
     display: flex;
     justify-content: center;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 900;
+}
+
+.aboutme{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.icons{
+    width: 50px;
+}
+
+.linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.helftlinks{
+    max-width: 40%;
 }
