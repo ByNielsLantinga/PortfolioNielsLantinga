@@ -1,0 +1,18 @@
+*{
+    color: white;
+    background-color: black;
+    font-family: Objektiv Mk1;
+}
+
+.naam{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.hello{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    font-weight: 900;
+}
