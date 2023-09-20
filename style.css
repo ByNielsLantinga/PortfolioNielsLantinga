@@ -15,6 +15,11 @@ body{
     justify-content: center;
     font-size: 40px;
     margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
 }
 
 .me{
@@ -59,7 +64,7 @@ body{
     align-items: center;
 }
 
-.links{
+.linkedinlink{
     color: #0077B5;
 }
 
@@ -75,4 +80,42 @@ body{
 
 .helftrechts{
     max-width: 50%;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+    max-width: 1280px;
+    text-decoration: none;
+}
+
+.container{
+    text-align: center;
+    max-width: 30%;
+}
+
+.thumbnail{
+    display: flex;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.projecttitel{
+    margin-top: -40px;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
 }
