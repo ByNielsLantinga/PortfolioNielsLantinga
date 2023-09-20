@@ -4,7 +4,7 @@
     font-family: Objektiv Mk1;
 }
 
-.body{
+body{
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
@@ -13,23 +13,44 @@
 .naam{
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
-.hello{
+.me{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.helloworld{
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
     font-size: 70px;
     font-weight: 900;
 }
 
 .aboutme{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.tekstaboutme{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 100px;
 }
 
 .icons{
-    width: 50px;
+    height: 50px;
+}
+
+.usedprograms{
+    height: 80px;
+    margin-right: 20px;
 }
 
 .linkedin{
@@ -38,6 +59,20 @@
     align-items: center;
 }
 
+.links{
+    color: #0077B5;
+}
+
+.blok{
+    display: flex;
+    justify-content: center;
+}
+
 .helftlinks{
-    max-width: 40%;
+    max-width: 45%;
+    margin-right: 5%;
+}
+
+.helftrechts{
+    max-width: 50%;
 }
