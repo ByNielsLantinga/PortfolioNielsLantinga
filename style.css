@@ -1,121 +1,258 @@
-*{
-    color: white;
-    background-color: black;
-    font-family: Objektiv Mk1;
+@media(min-width: 1200px){
+    *{
+        color: white;
+        background-color: black;
+        font-family: Objektiv Mk1;
+    }
+
+    body{
+        max-width: 1280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .naam{
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        margin-bottom: 10px;
+        text-decoration: none;
+    }
+
+    .link{
+        text-decoration: none;
+    }
+
+    .me{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+
+    .helloworld{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        font-size: 70px;
+        font-weight: 900;
+    }
+
+    .aboutme{
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+
+    .tekstaboutme{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 100px;
+    }
+
+    .usedprograms{
+        height: 80px;
+        margin-right: 20px;
+    }
+
+    .linkedin{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icons{
+        height: 50px;
+    }
+
+    .linkedinlink{
+        color: #0077B5;
+    }
+
+    .blok{
+        display: flex;
+        justify-content: center;
+    }
+
+    .helftlinks{
+        max-width: 45%;
+        margin-right: 5%;
+    }
+
+    .helftrechts{
+        max-width: 50%;
+    }
+
+    .title{
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+
+    .projects{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 35px;
+        max-width: 1280px;
+        text-decoration: none;
+    }
+
+    .container{
+        text-align: center;
+        max-width: 30%;
+    }
+
+    .thumbnail{
+        display: flex;
+        border-radius: 10px;
+        height: 300px;
+    }
+
+    .projecttitel{
+        margin-top: -40px;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+    }
 }
 
-body{
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.naam{
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-    margin-bottom: 10px;
-    text-decoration: none;
-}
 
-.link{
-    text-decoration: none;
-}
-
-.me{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-}
-
-.helloworld{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    font-size: 70px;
-    font-weight: 900;
-}
-
-.aboutme{
-    font-size: 50px;
-    font-weight: 900;
-    margin-bottom: 10px;
-}
-
-.tekstaboutme{
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 100px;
-}
-
-.icons{
-    height: 50px;
-}
-
-.usedprograms{
-    height: 80px;
-    margin-right: 20px;
-}
-
-.linkedin{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.linkedinlink{
-    color: #0077B5;
-}
-
-.blok{
-    display: flex;
-    justify-content: center;
-}
-
-.helftlinks{
-    max-width: 45%;
-    margin-right: 5%;
-}
-
-.helftrechts{
-    max-width: 50%;
-}
-
-.title{
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-    font-weight: 900;
-    margin-bottom: 10px;
-}
-
-.projects{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 35px;
-    max-width: 1280px;
-    text-decoration: none;
-}
-
-.container{
-    text-align: center;
-    max-width: 30%;
-}
-
-.thumbnail{
-    display: flex;
-    border-radius: 10px;
-    height: 300px;
-}
-
-.projecttitel{
-    margin-top: -40px;
+@media(min-width: 992px){
+    
 }
 
 
 
-.footer{
-    display: flex;
-    justify-content: center;
+@media(min-width: 786px){
+   
+}
+
+
+
+@media(min-width: 600px){
+    
+}
+
+
+
+@media(max-width: 600px){
+    *{
+        color: white;
+        background-color: black;
+        font-family: Objektiv Mk1;
+    }
+
+    body{
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .naam{
+        display: flex;
+        justify-content: center;
+        max-width: 95%;
+        font-size: 5vw;
+        margin-bottom: 10px;
+        text-decoration: none;
+    }
+
+    .link{
+        text-decoration: none;
+    }
+
+    .me{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50vw;
+    }
+
+    .helloworld{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        font-size: 10vw;
+        font-weight: 900;
+    }
+
+    .aboutme{
+        font-size: 6vw;
+        font-weight: 900;
+        margin-bottom: 10px;
+        justify-content: space-around;
+    }
+
+    .tekstaboutme{
+        font-size: 3vw;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    .usedprograms{
+        height:13vw;
+        margin-right: 2vw;
+        margin-bottom: 30px;
+    }
+
+    .linkedin{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+    }
+
+    .icons{
+        height: 9vw;
+    }
+
+    .linkedinlink{
+        color: #0077B5;
+    }
+
+    .blok{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .title{
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        text-decoration: none;
+    }
+
+    .container{
+        text-align: center;
+    }
+
+    .thumbnail{
+        display: flex;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .projecttitel{
+        margin-top: -40px;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        font-size: 3vw;
+    }
 }
