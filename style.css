@@ -4,6 +4,11 @@
     font-family: Objektiv Mk1;
 }
 
+@font-face {
+    font-family: 'Objektiv Mk1';
+    src: url('ObjektivMk1_Trial_SBd.ttf') format('woff2');
+}
+
 @media(min-width: 1200px){
     body{
         color: white;
@@ -122,8 +127,8 @@
 }
 
 
-/*
-@media(min-width: 992px){
+
+@media(min-width: 992px) and (max-width: 1199px){
     body{
         margin-left: auto;
         margin-right: auto;
@@ -239,7 +244,7 @@
 
 
 
-@media(min-width: 786px){
+@media(min-width: 786px) and (max-width: 991px){
    body{
         margin-left: auto;
         margin-right: auto;
@@ -355,7 +360,7 @@
 
 
 
-@media(min-width: 600px){
+@media(min-width: 600px) and (max-width: 787px){
     body{
         max-width: 95%;
         margin-left: auto;
