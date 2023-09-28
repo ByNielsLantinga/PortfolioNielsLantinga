@@ -17,6 +17,11 @@
         margin-right: auto;
     }
 
+    h5{
+        margin-top: -15px;
+        margin-bottom: 15px;
+    }
+
     .naam{
         display: flex;
         justify-content: center;
@@ -81,8 +86,9 @@
     }
 
     .helftlinks{
-        max-width: 45%;
+        max-width: 44%;
         margin-right: 5%;
+        margin-left: 1%;
     }
 
     .helftrechts{
@@ -94,7 +100,6 @@
         justify-content: center;
         font-size: 50px;
         font-weight: 900;
-        margin-bottom: 10px;
     }
 
     .projects{
@@ -109,7 +114,6 @@
     }
 
     .thumbnail{
-        display: flex;
         border-radius: 10px;
         width: 370px;
     }
@@ -154,6 +158,12 @@
         background-color: black;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    h5{
+        margin-top: -15px;
+        margin-bottom: 15px;
+        
     }
 
     .naam{
@@ -296,6 +306,11 @@
         margin-right: auto;
     }
 
+    h5{
+        margin-top: -15px;
+        margin-bottom: 15px;
+    }
+
     .naam{
         display: flex;
         justify-content: center;
@@ -367,6 +382,7 @@
 
     .helftrechts{
         max-width: 50%;
+        margin-top: -25px;
     }
 
     .title{
@@ -422,11 +438,16 @@
         margin-right: auto;
     }
 
+    h5{
+        margin-top: -15px;
+        margin-bottom: 15px;
+    }
+
     .naam{
         display: flex;
         justify-content: center;
         max-width: 95%;
-        font-size: 3vw;
+        font-size: 2.5vw;
         margin-bottom: 10px;
         text-decoration: none;
     }
@@ -544,6 +565,11 @@
         margin-right: auto;
     }
 
+    h5{
+        margin-top: -15px;
+        margin-bottom: 15px;
+    }
+
     .naam{
         display: flex;
         justify-content: center;
@@ -616,7 +642,7 @@
     .title{
         display: flex;
         justify-content: center;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 900;
         margin-bottom: 10px;
     }
