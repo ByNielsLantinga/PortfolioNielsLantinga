@@ -11,7 +11,7 @@
 @media(min-width: 1200px){
     body{
         color: white;
-        background-color: black;
+        background-color: #15141A;
         max-width: 1280px;
         margin-left: auto;
         margin-right: auto;
@@ -155,7 +155,7 @@
 
 @media(min-width: 992px) and (max-width: 1199px){
     body{
-        background-color: black;
+        background-color: #15141A;
         margin-left: auto;
         margin-right: auto;
     }
@@ -301,7 +301,7 @@
 
 @media(min-width: 786px) and (max-width: 991px){
    body{
-        background-color: black;
+        background-color: #15141A;
         margin-left: auto;
         margin-right: auto;
     }
@@ -432,7 +432,7 @@
 
 @media(min-width: 600px) and (max-width: 787px){
     body{
-        background-color: black;
+        background-color: #15141A;
         max-width: 95%;
         margin-left: auto;
         margin-right: auto;
@@ -559,7 +559,7 @@
 
 @media(max-width: 599px){
     body{
-        background-color: black;
+        background-color: #15141A;
         max-width: 95%;
         margin-left: auto;
         margin-right: auto;
