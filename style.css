@@ -83,16 +83,19 @@
     .blok{
         display: flex;
         justify-content: center;
+        gap: 5%;
     }
 
     .helftlinks{
-        max-width: 44%;
-        margin-right: 5%;
-        margin-left: 1%;
+        max-width: 45%;
     }
 
-    .helftrechts{
-        max-width: 50%;
+    .helftrechtssticky{
+        position: -webkit-sticky;
+        max-width: 45%;
+        position: sticky;
+        align-self: flex-start;
+        top: 80px;
     }
 
     .title{
@@ -227,16 +230,19 @@
     .blok{
         display: flex;
         justify-content: center;
+        gap: 5%;
     }
 
     .helftlinks{
-        max-width: 43%;
-        margin-right: 5%;
-        margin-left: 2%;
+        max-width: 45%;
     }
 
-    .helftrechts{
-        max-width: 50%;
+    .helftrechtssticky{
+        position: -webkit-sticky;
+        max-width: 45%;
+        position: sticky;
+        align-self: flex-start;
+        top: 80px;
     }
 
     .title{
@@ -372,17 +378,19 @@
     .blok{
         display: flex;
         justify-content: center;
+        gap: 5%;
     }
 
     .helftlinks{
-        max-width: 43%;
-        margin-right: 5%;
-        margin-left: 2%;
+        max-width: 45%;
     }
 
-    .helftrechts{
-        max-width: 50%;
-        margin-top: -25px;
+    .helftrechtssticky{
+        position: -webkit-sticky;
+        max-width: 45%;
+        position: sticky;
+        align-self: flex-start;
+        top: 80px;
     }
 
     .title{
