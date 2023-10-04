@@ -68,6 +68,12 @@
     }
 
     .usedprograms{
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+
+    .iconusedprograms{
         height: 80px;
         margin-right: 20px;
         margin-bottom: 20px;
@@ -222,6 +228,12 @@
     }
 
     .usedprograms{
+        font-size: 4vw;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+
+    .iconusedprograms{
         height: 7vw;
         margin-right: 1vw;
         margin-bottom: 20px;
@@ -377,6 +389,12 @@
     }
 
     .usedprograms{
+        font-size: 4vw;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+
+    .iconusedprograms{
         height: 7vw;
         margin-right: 1vw;
         margin-bottom: 20px;
@@ -517,6 +535,13 @@
     }
 
     .usedprograms{
+        font-size: 6vw;
+        font-weight: 900;
+        margin-bottom: 10px;
+        justify-content: space-around;
+    }
+
+    .iconusedprograms{
         height:13vw;
         margin-right: 2vw;
         margin-bottom: 30px;
@@ -647,6 +672,13 @@
     }
 
     .usedprograms{
+        font-size: 6vw;
+        font-weight: 900;
+        margin-bottom: 10px;
+        justify-content: space-around;
+    }
+
+    .iconusedprograms{
         height:13vw;
         margin-right: 2vw;
         margin-bottom: 30px;
