@@ -74,9 +74,20 @@
     }
 
     .iconusedprograms{
+        height: 96px;
+        width: 96px;
+        margin-right: 20px;
+        margin-bottom: 20px;   
+    }
+
+    .iconusedprograms2{
         height: 80px;
+        width: 80px;
         margin-right: 20px;
         margin-bottom: 20px;
+        background-color: white;
+        border-radius: 15px;
+        padding: 8px;
     }
 
     .linkedin{
@@ -120,13 +131,17 @@
 
     .projects{
         display: flex;
-        justify-content: space-around;
         margin-bottom: 35px;
         text-decoration: none;
+        justify-content: space-between;
     }
 
     .container{
+        display: flex;
+        max-width: 100%;
         text-align: center;
+        margin-bottom: 50px;
+        
     }
 
     .thumbnail{
@@ -234,11 +249,22 @@
     }
 
     .iconusedprograms{
-        height: 7vw;
+        height: 7.5vw;
+        width: 7.5vw;
         margin-right: 1vw;
         margin-bottom: 20px;
     }
 
+    .iconusedprograms2{
+        height: 6vw;
+        width: 6vw;
+        margin-right: 1vw;
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 8px;
+    }
+    
     .linkedin{
         display: flex;
         justify-content: center;
@@ -395,9 +421,20 @@
     }
 
     .iconusedprograms{
-        height: 7vw;
+        height: 7.5vw;
+        width: 7.5vw;
         margin-right: 1vw;
         margin-bottom: 20px;
+    }
+
+    .iconusedprograms2{
+        height: 6vw;
+        width: 6vw;
+        margin-right: 1vw;
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 5px;
     }
 
     .linkedin{
@@ -542,9 +579,20 @@
     }
 
     .iconusedprograms{
-        height:13vw;
+        height: 12.5vw;
+        width: 12.5vw;
         margin-right: 2vw;
         margin-bottom: 30px;
+    }
+
+    .iconusedprograms2{
+        height: 11vw;
+        width: 11vw;
+        margin-right: 2vw;
+        margin-bottom: 30px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 6px;
     }
 
     .linkedin{
@@ -679,9 +727,20 @@
     }
 
     .iconusedprograms{
-        height: 13vw;
+        height: 15vw;
+        width: 15vw;
         margin-right: 2vw;
         margin-bottom: 30px;
+    }
+    
+    .iconusedprograms2{
+        height: 12vw;
+        width: 12vw;
+        margin-right: 2vw;
+        margin-bottom: 30px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 6px;
     }
 
     .linkedin{
