@@ -133,15 +133,17 @@
         display: flex;
         margin-bottom: 35px;
         text-decoration: none;
-        justify-content: space-between;
+        justify-content: center;
+        width: 100%;
+        gap: 45px;
+        flex-wrap: wrap;
+        margin: auto;
     }
 
     .container{
         display: flex;
         max-width: 100%;
         text-align: center;
-        margin-bottom: 50px;
-        
     }
 
     .thumbnail{
@@ -307,10 +309,15 @@
 
     .projects{
         display: flex;
-        justify-content: space-around;
         margin-bottom: 35px;
         text-decoration: none;
+        justify-content: center;
+        width: 95%;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin: auto;
     }
+        
 
     .container{
         text-align: center;
@@ -479,9 +486,13 @@
 
     .projects{
         display: flex;
-        justify-content: space-around;
         margin-bottom: 35px;
         text-decoration: none;
+        justify-content: center;
+        width: 95%;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin: auto;
     }
 
     .container{
