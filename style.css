@@ -819,3 +819,23 @@
         font-size: 3vw;
     }
 }
+
+#scrollToProjectsButton {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0077B5; /* Blauwe achtergrondkleur */
+    color: white; /* Witte tekstkleur */
+    border: none;
+    border-radius: 50%; /* Rond maken */
+    width: 60px; /* Diameter van de knop */
+    height: 60px; /* Diameter van de knop */
+    font-size: 24px; /* Tekstgrootte */
+    cursor: pointer;
+  }
+  
+  #scrollToProjectsButton::before {
+    content: "\2193"; /* Unicode-pijlsymbool naar beneden */
+  }
+  
