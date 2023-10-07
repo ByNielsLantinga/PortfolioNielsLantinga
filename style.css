@@ -56,8 +56,8 @@
     .aboutme{
         font-size: 50px;
         font-weight: 900;
-        margin-bottom: 10px;
         margin-left: 5%;
+        margin-bottom: -45px;
     }
 
     .tekstaboutme{
@@ -70,7 +70,7 @@
     .usedprograms{
         font-size: 50px;
         font-weight: 900;
-        margin-bottom: 10px;
+        margin-bottom: -45px;
     }
 
     .iconusedprograms{
@@ -219,13 +219,12 @@
         display: flex;
         margin-left: auto;
         margin-right: auto;
-        width: 30vw;
+        width: 25vw;
     }
 
     .helloworld{
         display: flex;
         justify-content: center;
-        margin-bottom: 30px;
         font-size: 5vw;
         font-weight: 900;
     }
@@ -233,8 +232,8 @@
     .aboutme{
         font-size: 4vw;
         font-weight: 900;
-        margin-bottom: 10px;
         margin-left: 5%;
+        margin-bottom: -35px;
     }
 
     .tekstaboutme{
@@ -247,7 +246,7 @@
     .usedprograms{
         font-size: 4vw;
         font-weight: 900;
-        margin-bottom: 10px;
+        margin-bottom: -35px;
     }
 
     .iconusedprograms{
@@ -410,8 +409,8 @@
     .aboutme{
         font-size: 4vw;
         font-weight: 900;
-        margin-bottom: 10px;
         margin-left: 5%;
+        margin-bottom: -30px;
     }
 
     .tekstaboutme{
@@ -424,7 +423,7 @@
     .usedprograms{
         font-size: 4vw;
         font-weight: 900;
-        margin-bottom: 10px;
+        margin-bottom: -30px;
     }
 
     .iconusedprograms{
@@ -573,8 +572,8 @@
     .aboutme{
         font-size: 6vw;
         font-weight: 900;
-        margin-bottom: 10px;
         justify-content: space-around;
+        margin-bottom: -35px;
     }
 
     .tekstaboutme{
@@ -586,8 +585,8 @@
     .usedprograms{
         font-size: 6vw;
         font-weight: 900;
-        margin-bottom: 10px;
         justify-content: space-around;
+        margin-bottom: -35px;
     }
 
     .iconusedprograms{
@@ -721,8 +720,8 @@
     .aboutme{
         font-size: 6vw;
         font-weight: 900;
-        margin-bottom: 10px;
         justify-content: space-around;
+        margin-bottom: -20px;
     }
 
     .tekstaboutme{
@@ -734,8 +733,8 @@
     .usedprograms{
         font-size: 6vw;
         font-weight: 900;
-        margin-bottom: 10px;
         justify-content: space-around;
+        margin-bottom: -20px;
     }
 
     .iconusedprograms{
@@ -820,22 +819,22 @@
     }
 }
 
+/* Stijlen voor de knop */
 #scrollToProjectsButton {
     position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #0077B5; /* Blauwe achtergrondkleur */
-    color: white; /* Witte tekstkleur */
-    border: none;
-    border-radius: 50%; /* Rond maken */
-    width: 60px; /* Diameter van de knop */
-    height: 60px; /* Diameter van de knop */
-    font-size: 24px; /* Tekstgrootte */
-    cursor: pointer;
+    right: 20px; /* Afstand vanaf de rechterkant */
+    background-color: rgb(0, 119, 255); /* Achtergrondkleur van de knop */
+    color: white; /* Tekstkleur */
+    border: none; /* Verwijder de rand */
+    border-radius: 50px; /* Maak de hoeken rond */
+    padding: 10px 20px; /* Ruimte binnenin de knop */
+    cursor: pointer; /* Maak een handcursor bij hover */
+    font-size: 16px; /* Tekstgrootte */
   }
   
-  #scrollToProjectsButton::before {
-    content: "\2193"; /* Unicode-pijlsymbool naar beneden */
+  /* Pijl naar rechts binnen de knop */
+  #scrollToProjectsButton::after {
+    content: '→'; /* Voeg een pijl toe als inhoud */
+    margin-left: 10px; /* Ruimte tussen tekst en pijl */
   }
-  
+    
