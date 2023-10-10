@@ -834,7 +834,7 @@
   
   /* Pijl naar rechts binnen de knop */
   #scrollToProjectsButton::after {
-    content: '→'; /* Voeg een pijl toe als inhoud */
+    content: '↓'; /* Voeg een pijl toe als inhoud */
     margin-left: 10px; /* Ruimte tussen tekst en pijl */
   }
     
