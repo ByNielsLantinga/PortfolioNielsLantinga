@@ -152,12 +152,12 @@
     }
 
     .container:hover .thumbnail {
-        transform: scale(1.25); /* Zoom in the thumbnail on hover */
+        transform: scale(1.12); /* Zoom in the thumbnail on hover */
     }
 
     /* Add a hover effect to the project title within the container */
     .container:hover .projecttitel {
-        transform: scale(1.25); /* Zoom in the project title on hover */
+        transform: scale(1.12); /* Zoom in the project title on hover */
     }
 
     /* Add a transition for a smooth zoom effect */
@@ -329,12 +329,12 @@
     }
 
     .container:hover .thumbnail {
-        transform: scale(1.15); /* Zoom in the thumbnail on hover */
+        transform: scale(1.07); /* Zoom in the thumbnail on hover */
     }
 
     /* Add a hover effect to the project title within the container */
     .container:hover .projecttitel {
-        transform: scale(1.15); /* Zoom in the project title on hover */
+        transform: scale(1.07); /* Zoom in the project title on hover */
     }
 
     /* Add a transition for a smooth zoom effect */
