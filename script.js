@@ -33,7 +33,7 @@ window.addEventListener('load', function() {
 
 // Functie om naar projecten te scrollen
 function scrollToProjects() {
-  const projectsSection = document.querySelector('.projects');
+  const projectsSection = document.querySelector('.title');
   projectsSection.scrollIntoView({ behavior: 'smooth' });
 
   // Verberg de knop
