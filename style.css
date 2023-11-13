@@ -8,6 +8,13 @@
     src: url('ObjektivMk1_Trial_SBd.ttf') format('woff2');
 }
 
+body{
+    background-image: url('images/background.png'); /* Voeg hier het pad naar je achtergrondafbeelding toe */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 @media(min-width: 1200px){
     body{
         color: white;
@@ -675,6 +682,7 @@
 
 
 @media(max-width: 599px){
+    
     body{
         background-color: #131215;
         max-width: 95%;
