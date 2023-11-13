@@ -840,3 +840,40 @@
     margin-left: 10px; /* Ruimte tussen tekst en pijl */
   }
     
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+.container {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.container.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.container.animate-out {
+    opacity: 0;
+    transform: translateY(-20px);
+}

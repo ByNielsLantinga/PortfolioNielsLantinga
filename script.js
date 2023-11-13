@@ -40,3 +40,41 @@ function scrollToProjects() {
   const button = document.getElementById('scrollToProjectsButton');
   button.style.display = 'none';
 }
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const elements = document.querySelectorAll('.container');
+  let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  window.addEventListener('scroll', function () {
+      const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const scrollDirection = currentScrollTop > lastScrollTop ? 'down' : 'up';
+
+      elements.forEach((element) => {
+          const isInViewport = isElementInViewport(element, 100, 200); // Pas de offsets hier aan
+
+          if (isInViewport && !element.classList.contains('animate-in')) {
+              element.classList.add('animate-in');
+          } else if (!isInViewport && element.classList.contains('animate-in')) {
+              element.classList.remove('animate-in');
+          }
+      });
+
+      lastScrollTop = currentScrollTop;
+  });
+
+  function isElementInViewport(el, topOffset, bottomOffset) {
+      const rect = el.getBoundingClientRect();
+      return (
+          rect.top + topOffset >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom - bottomOffset <= (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+  }
+
+  window.dispatchEvent(new Event('scroll'));
+});
