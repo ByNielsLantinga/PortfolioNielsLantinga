@@ -210,7 +210,7 @@ body{
         display: flex;
         justify-content: center;
         margin-bottom: 20px;
-        max-width: 70%;
+        max-width: 50%;
     }
 
     .logolink{
@@ -232,12 +232,12 @@ body{
     .helloworld{
         display: flex;
         justify-content: center;
-        font-size: 5vw;
+        font-size: 4.5vw;
         font-weight: 900;
     }
 
     .aboutme{
-        font-size: 4vw;
+        font-size: 3vw;
         font-weight: 900;
         margin-left: 5%;
         margin-bottom: -35px;
@@ -251,7 +251,7 @@ body{
     }
 
     .usedprograms{
-        font-size: 4vw;
+        font-size: 3vw;
         font-weight: 900;
         margin-bottom: -35px;
     }
@@ -308,7 +308,7 @@ body{
     .title{
         display: flex;
         justify-content: center;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 900;
         margin-bottom: 10px;
     }
