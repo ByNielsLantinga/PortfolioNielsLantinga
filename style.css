@@ -70,8 +70,20 @@ body{
     .tekstaboutme{
         font-size: 20px;
         font-weight: 500;
-        margin-bottom: 100px;
         margin-left: 5%;
+    }
+
+    .leren{
+        font-size: 50px;
+        font-weight: 900;
+        margin-left: 3%;
+        margin-bottom: -45px;
+    }
+
+    .tekstleren{
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 3%;
     }
 
     .usedprograms{
@@ -246,8 +258,21 @@ body{
     .tekstaboutme{
         font-size: 1.5vw;
         font-weight: 500;
-        margin-bottom: 100px;
         margin-left: 5%;
+    }
+
+    .leren{
+        font-size: 3vw;
+        font-weight: 900;
+        margin-left: 5%;
+        margin-bottom: -35px;
+    }
+
+    .tekstleren{
+        font-size: 1.5vw;
+        font-weight: 500;
+        margin-left: 5%;
+        max-width: 90%;
     }
 
     .usedprograms{
@@ -423,8 +448,21 @@ body{
     .tekstaboutme{
         font-size: 1.5vw;
         font-weight: 500;
-        margin-bottom: 100px;
         margin-left: 5%;
+    }
+
+    .leren{
+        font-size: 4vw;
+        font-weight: 900;
+        margin-left: 5%;
+        margin-bottom: -30px;
+    }
+
+    .tekstleren{
+        font-size: 1.5vw;
+        font-weight: 500;
+        margin-left: 5%;
+        max-width: 90%;
     }
 
     .usedprograms{
@@ -589,6 +627,19 @@ body{
         margin-bottom: 30px;
     }
 
+    .leren{
+        font-size: 6vw;
+        font-weight: 900;
+        justify-content: space-around;
+        margin-bottom: -35px;
+    }
+
+    .tekstleren{
+        font-size: 3vw;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
     .usedprograms{
         font-size: 6vw;
         font-weight: 900;
@@ -734,6 +785,19 @@ body{
     }
 
     .tekstaboutme{
+        font-size: 4vw;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    .leren{
+        font-size: 6vw;
+        font-weight: 900;
+        justify-content: space-around;
+        margin-bottom: -20px;
+    }
+
+    .tekstleren{
         font-size: 4vw;
         font-weight: 500;
         margin-bottom: 30px;
