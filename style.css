@@ -45,6 +45,10 @@ body{
         text-decoration: none;
     }
 
+    .linkblauw{
+        color: #00a6ff;
+    }
+
     .me{
         display: flex;
         margin-left: auto;
@@ -232,6 +236,10 @@ body{
 
     .link{
         text-decoration: none;
+    }
+
+    .linkblauw{
+        color: #00a6ff;
     }
 
     .me{
@@ -423,6 +431,10 @@ body{
         text-decoration: none;
     }
 
+    .linkblauw{
+        color: #00a6ff;
+    }
+
     .me{
         display: flex;
         margin-left: auto;
@@ -599,6 +611,10 @@ body{
         text-decoration: none;
     }
 
+    .linkblauw{
+        color: #00a6ff;
+    }
+
     .me{
         display: flex;
         margin-left: auto;
@@ -760,6 +776,10 @@ body{
 
     .link{
         text-decoration: none;
+    }
+
+    .linkblauw{
+        color: #00a6ff;
     }
 
     .me{
