@@ -1,0 +1,35 @@
+        <div class="container">
+            <a class="link" href="portofoliosemester2.html">
+                <img class="thumbnail" src="images/portofoliosemester2logo.jpg" alt="project portfolio semester 2">
+                <h2 class="projecttitel">Portofolio semester 2 (DEV)</h2>
+            </a>
+        </div>
+
+        <div class="container">
+            <a class="link" href="bierwijzer.html">
+                <img class="thumbnail" src="images/bierwijzer.jpg" alt="bierwijzer">
+                <h2 class="projecttitel">Bierwijzer (UX + DEV)</h2>
+            </a>
+        </div>
+
+        <div class="container">
+            <a class="link" href="livewall.html">
+                <img class="thumbnail" src="images/livewalllogo.jpg">
+                <h2 style="color: black;" class="projecttitel">Sprookjesgenerator</h2>
+            </a>
+        </div>
+
+        <div class="container">
+            <a class="link" href="portfolio.html">
+                <img class="thumbnail" src="images/portfolio.jpg" alt="project portfolio">
+                <h2 class="projecttitel">Portfolio</h2>
+            </a>
+        </div>
+
+        <a href="https://github.com/ByNielsLantinga" target="_blank">
+            <img class="iconusedprograms2" src="images/github.svg" alt="github">
+        </a>
+        <img class="iconusedprograms2" src="images/vscode.png" alt="vscode icon">
+        <img class="iconusedprograms2" src="images/html.svg" alt="html icon">
+        <img class="iconusedprograms2" src="images/css.svg" alt="css icon">
+        <img class="iconusedprograms2" src="images/javascript.svg" alt="javascript icon">
